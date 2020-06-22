@@ -1,7 +1,7 @@
 # EcommerceShopping-Website
 
 # Customer 
-  1.SignUp Login. <br>
+  1.SignUp & Login. <br>
   
   2.You already have an owner id&password and jump to my main homepage!<br>
   
