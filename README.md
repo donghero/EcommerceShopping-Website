@@ -14,3 +14,22 @@
   1.delete add and upgrade products.<br>
   2.Also you could see Annual product sales (dashbord).<br>
   3.There are lots of functions on admin page so you can upgrade and modify code.
+
+ # Sign up & Log in
+![Sign up & Log in](https://github.com/donghero/EcommerceShopping-Website/blob/master/images/customer_register%26login.gif)
+ 
+ # HomePage
+ ![HomePage](https://github.com/donghero/EcommerceShopping-Website/blob/master/images/home.gif)
+ 
+ 
+ # Product
+ ![Product](https://github.com/donghero/EcommerceShopping-Website/blob/master/images/product.gif)
+ 
+ # Cart
+ ![Cart](https://github.com/donghero/EcommerceShopping-Website/blob/master/images/cart.gif)
+ 
+  # Check Out
+ ![Check Out](https://github.com/donghero/EcommerceShopping-Website/blob/master/images/checkout.gif)
+ 
+   # Admin
+ ![Admin](https://github.com/donghero/EcommerceShopping-Website/blob/master/images/admin.gif)
