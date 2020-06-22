@@ -1,0 +1,331 @@
+.mt--20 {
+    margin-top: 20px !important;
+}
+.mt--30 {
+    margin-top: 30px !important;
+}
+.mt--70 {
+    margin-top: 70px !important;
+}
+ul li {
+    list-style: none;
+}
+
+/*=========================
+    Contact Form Style One
+===========================*/
+.contact__form--1 input, .contact__form--1 textarea {
+    font-size: 18px;
+    padding: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    width: 100%;
+    line-height: inherit;
+    height: auto;
+}
+.contact__form--1 input[type=submit]:hover, .contact__form--1 textarea[type=submit]:hover {
+    background: #ff5151;
+}
+.contact__form--1 input[type=submit], .contact__form--1 textarea[type="submit"] {
+    background-color: #2f2f2f;
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+}
+.contact__form--1 input[type=submit], .contact__form--1 textarea[type="submit"] {
+    text-transform: uppercase;
+}
+.contact__form--1 input, .contact__form--1 textarea, .contact__form--1 input[type=submit] {
+    display: block;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .adress__style--1 {
+        padding: 8% 4%;
+    }
+}
+.adress__style--1 {
+    padding: 31% 12%;
+    margin-top: 45px;
+    margin-left: 25px;
+}
+.adress__style--1 .contact-address li:not(:last-child) {
+    padding-bottom: calc(30px/2);
+}
+.adress__style--1 .contact-address li span.address-icon {
+    color: #f53e6a;
+    font-size: 30px;
+}
+.adress__style--1 .contact-address li span.address-text {
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+/*------------------------
+     My account
+--------------------------*/
+.panel .panel-heading h5.panel-title {
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    color: #434343;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.panel .panel-heading h5.panel-title a {
+    color: #333;
+    display: block;
+    padding: 12px 55px 11px;
+    position: relative;
+}
+
+.panel .panel-heading h5.panel-title a::before {
+    color: #666666;
+    content: "\f110";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+
+.panel .panel-heading h5.panel-title a.collapsed::after {
+    color: #666666;
+    content: "\f113";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+
+.panel .panel-heading h5.panel-title a.collapsed::before {
+    display: none;
+}
+
+.panel .panel-heading h5.panel-title a:hover {
+    color: #292323;
+}
+
+.panel .panel-heading h5.panel-title span {
+    background-color: #ff5151;
+    color: #fff;
+    font-size: 15px;
+    height: 42px;
+    left: 0;
+    line-height: 42px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 42px;
+}
+
+.panel-body {
+    margin-bottom: 50px;
+}
+
+.panel-body .billing-information-wrapper {
+    background-color: #fff;
+    padding: 15px 20px;
+    border: 1px solid #eaeaea;
+}
+
+.panel-body .account-info-wrapper {
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 28px;
+    padding-bottom: 30px;
+}
+
+.panel-body .account-info-wrapper h4 {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.panel-body .account-info-wrapper h5 {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    margin-top: 7px;
+}
+
+.panel-body .billing-info {
+    margin-bottom: 20px;
+}
+
+.panel-body .billing-info label {
+    color: #434343;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.panel-body .billing-info input, .panel-body .billing-info .contact__form--1 textarea, .contact__form--1 .panel-body .billing-info textarea {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #eaeaea;
+    color: #555;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.panel-body .billing-back-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: block;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 26px;
+    text-align: right;
+}
+
+.panel-body .billing-back-btn .billing-back a {
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 7px;
+    text-transform: uppercase;
+}
+
+.panel-body .billing-back-btn .billing-back a:hover {
+    color: #292323;
+}
+
+.panel-body .billing-back-btn .billing-back a i {
+    font-size: 18px;
+    color: #292323;
+}
+
+.panel-body .billing-back-btn .billing-btn button {
+    background-color: #ff5151;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1;
+    padding: 13px 23px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.panel-body .billing-back-btn .billing-btn button:hover {
+    background-color: #292323;
+    color: #fff;
+}
+
+.panel-body .entries-wrapper {
+    border: 1px solid #eaeaea;
+    position: relative;
+}
+
+.panel-body .entries-wrapper::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 1px;
+    left: 50%;
+    top: 0;
+    background-color: #eaeaea;
+}
+
+@media only screen and (max-width: 767px) {
+    .panel-body .entries-wrapper::before {
+        display: none;
+    }
+}
+
+.panel-body .entries-wrapper .entries-info {
+    padding: 30px 20px;
+}
+
+.panel-body .entries-wrapper .entries-info p {
+    color: #454545;
+    font-size: 15px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.panel-body .entries-wrapper .entries-edit-delete a {
+    background-color: #454545;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    letter-spacing: 0.2px;
+    line-height: 1;
+    margin: 0 2px;
+    padding: 12px 15px;
+    text-transform: uppercase;
+}
+
+.panel-body .entries-wrapper .entries-edit-delete a.edit {
+    background-color: #292323;
+}
+
+.panel-body .entries-wrapper .entries-edit-delete a.edit:hover {
+    background-color: #292323;
+}
+
+.panel-body .entries-wrapper .entries-edit-delete a:hover {
+    background-color: #292323;
+}
+
+@media only screen and (max-width: 767px) {
+    .panel-body .entries-wrapper .entries-edit-delete {
+        margin-bottom: 24px;
+    }
+}
+input, .contact__form--1 textarea, select, textarea {
+    width: 100%;
+    font-size: 14px;
+}
+a:hover {
+    text-decoration: none;
+}
+/*=========================
+    delivery Style One
+===========================*/
+.border{
+  padding: 20px!important;
+    border:3px solid black!important;
+}
+.btn-primary{
+    cursor: pointer;
+}
+
+/*=========================
+    other style
+===========================*/
+.sticky-top{
+    top: 57px!important;
+}
+
+li.nav-item.col-md-3 {
+    display: flex;
+}
+em{
+    font-size: 30px;
+    line-height: 37px;
+    font-family: fantasy;
+    color: #f23a3a;
+    font-style: normal;
+}
+em.notice_count {
+    margin: auto auto auto 1px;
+}
+#section1,#section2,#section3,#section4{
+    height: 100vh;
+}
