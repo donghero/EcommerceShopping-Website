@@ -11,6 +11,6 @@
 
 
 # Admin
-1.delete add and upgrade products.
-2.Also you could see Annual product sales (dashbord).
-3.There are lots of functions on admin page so you can upgrade and modify code.
+  1.delete add and upgrade products.<br>
+  2.Also you could see Annual product sales (dashbord).<br>
+  3.There are lots of functions on admin page so you can upgrade and modify code.
